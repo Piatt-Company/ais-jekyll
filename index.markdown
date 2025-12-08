@@ -10,23 +10,23 @@ feature_row:
     alt: "Secure Logistics"
     title: "Secure Logistics"
     excerpt: "Chain-of-custody protocols for AI hardware assets in and out of the rack."
-    url: "/services/"
-    btn_label: "View Capabilities"
-    btn_class: "btn--primary"
+  #  url: "/services/"
+  #  btn_label: "View Capabilities"
+  #  btn_class: "btn--primary"
   - image_path: /assets/images/coolant-loop_800x800.png 
     alt: "Advanced Cooling"
     title: "Liquid Cooling Ops"
     excerpt: "Specialized maintenance for DLC, CDUs, and rear-door heat exchangers."
-    url: "/services/"
-    btn_label: "Learn More"
-    btn_class: "btn--primary"
+  #  url: "/services/"
+  #  btn_label: "Learn More"
+  #  btn_class: "btn--primary"
   - image_path: /assets/images/om-team_800x800.png
     alt: "Regional Scale"
     title: "Texas & New Mexico"
     excerpt: "Purpose built teams capable of covering the major Southwest compute hubs."
-    url: "/about/"
-    btn_label: "Our Footprint"
-    btn_class: "btn--primary"
+  #  url: "/about/"
+  #  btn_label: "Our Footprint"
+  #  btn_class: "btn--primary"
 ---
 
 <div class="video-hero">
