@@ -10,7 +10,8 @@ description: >-
   Data center operations and maintenance activities must be done differently
   for the AI era. AIS is purpose built from the ground up to support the complex
   needs of AI infrastructure with specialist expertise and SOPs.
-url: "http://localhost:4000" # Change this when you go live (e.g. https://ai-infraservices.com)
+# url: "http://localhost:4000" # Change this when you go live (e.g. https://ai-infraservices.com)
+url: "https://ai-infraservices.com"
 baseurl: "" # Keep empty unless hosting in a subdirectory
 
 # --- Author / Sidebar Data ---
