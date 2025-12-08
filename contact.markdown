@@ -1,30 +1,84 @@
 ---
 layout: single
-title: Contact
+title: "Contact Us"
 permalink: /contact/
-order: 4
+author_profile: true
+sidebar:
+  nav: "main"
 ---
 
-## Get in Touch
+We engage with hyperscalers, colocation providers, and enterprise AI labs. 
 
-Ready to upgrade your infrastructure operations?
-
-**Email us directly:** [bret@ai-infraservices.com](mailto:bret@ai-infraservices.com)
+### Headquarters
+**AI Infrastructure Services** San Antonio, Texas  
+USA
 
 ---
 
-### Inquiry Form
+### Business Inquiries
 
-<form action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
-  <label>
-    Your Email:
-    <input type="email" name="email" style="width: 100%; padding: 8px; margin-bottom: 10px;">
-  </label>
-  <label>
-    Message:
-    <textarea name="message" style="width: 100%; height: 100px; padding: 8px; margin-bottom: 10px;"></textarea>
-  </label>
-  <button type="submit" style="padding: 10px 20px;">Send</button>
+For RFP invitations or site assessment requests, please contact us directly.
+
+**Email:** [bret@ai-infraservices.com](mailto:bret@ai-infraservices.com)
+
+---
+
+### Secure Inquiry Form
+
+<form id="contact-form">
+  <div class="form-group">
+    <label for="email">Your Email Address</label>
+    <input type="email" name="email" id="email" class="form-control" placeholder="name@company.com" required>
+  </div>
+  
+  <div class="form-group">
+    <label for="message">Message</label>
+    <textarea name="message" id="message" class="form-control" rows="6" placeholder="How can we support your infrastructure?" required></textarea>
+  </div>
+
+  <button type="submit" id="submit-btn" class="btn btn--primary btn--large">Send Message</button>
+  <p id="form-status" style="margin-top: 1em; font-weight: bold;"></p>
 </form>
 
-*Note: This form is a placeholder. We will configure the backend destination later.*
+<script>
+  document.getElementById("contact-form").addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    const form = event.target;
+    const status = document.getElementById("form-status");
+    const btn = document.getElementById("submit-btn");
+
+    // Google Apps Script Web App URL
+    const scriptUrl = "https://script.google.com/macros/s/AKfycbwI4wKHaHUeKqymmk8vsqCIgurG0kbKTi4r2BtwxwgkZWEz9rnimkRliWesrUbTQSGkUg/exec";
+
+    // Prepare Data
+    const formData = new FormData(form);
+    const data = Object.fromEntries(formData.entries());
+
+    try {
+      btn.disabled = true;
+      btn.innerText = "Sending...";
+
+      // Send to Google (Using text/plain to avoid CORS preflight)
+      const response = await fetch(scriptUrl, {
+        method: "POST",
+        body: JSON.stringify(data) 
+      });
+
+      if (response.ok) {
+        status.innerText = "Message sent successfully. We will be in touch shortly.";
+        status.style.color = "green";
+        form.reset();
+      } else {
+        throw new Error("Network response was not ok.");
+      }
+    } catch (error) {
+      status.innerText = "There was an error sending your message. Please email us directly.";
+      status.style.color = "red";
+      console.error(error);
+    } finally {
+      btn.disabled = false;
+      btn.innerText = "Send Message";
+    }
+  });
+</script>
