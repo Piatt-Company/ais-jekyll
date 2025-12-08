@@ -1,0 +1,89 @@
+# -----------------------------------------------------------------------------
+# AI INFRASTRUCTURE SERVICES - CONFIGURATION
+# Theme: Minimal Mistakes
+# -----------------------------------------------------------------------------
+
+# --- Site Settings ---
+title: AI Infrastructure Services
+description: >-
+  Data center operations and maintenance activities must be done differently
+  for the AI era. AIS is purpose built from the ground up to support the complex
+  needs of AI infrastructure with specialist expertise and SOPs.
+url: "http://localhost:4000" # Change this when you go live (e.g. https://ai-infraservices.com)
+baseurl: "" # Keep empty unless hosting in a subdirectory
+
+# --- Author / Sidebar Data ---
+# This populates the "About" sidebar on standard pages
+author:
+  name: "AI Infrastructure Services"
+  avatar: # "/assets/images/logo.png" (Uncomment once you have a logo file)
+  bio: "Specialist expertise and SOPs for the AI era."
+  location: "San Antonio, TX"
+  email: "bret@ai-infraservices.com"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/bpiatt"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cyberbret"
+
+# --- Theme Settings ---
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" # Options: "air", "aqua", "contrast", "dark", "default", "dirt", "mint", "nean", "plum", "sunrise", "sunset"
+locale: "en-US"
+
+# Search: Enables the magnifying glass and search index
+search: true
+search_full_content: true # Index full text of SOPs/pages
+
+# --- Layout Defaults ---
+# This saves you from typing "layout: single" on every new page.
+defaults:
+  # Default for all pages/posts
+  - scope:
+      path: ""
+    values:
+      layout: single
+      author_profile: true # Shows the sidebar by default
+      read_time: true      # Shows "2 min read"
+      comments: false
+      share: true
+      related: true
+
+  # Specific override for the Home page to be wide/splash
+  - scope:
+      path: "index.markdown"
+    values:
+      layout: splash
+      author_profile: false
+
+# --- Plugins ---
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap     # Good for SEO
+  - jekyll-gist
+
+# --- Jekyll Settings ---
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+  # --- Build Settings ---
+sass:
+  style: compressed
+  quiet_deps: true # Silences warnings from the theme gem itself
+  # Explicitly allows @import in our local main.scss until
+  # we migrate to @use when minimal-mistakes supports it.
+  silence_deprecations:
+    - import 

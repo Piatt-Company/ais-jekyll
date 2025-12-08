@@ -1,0 +1,28 @@
+---
+---
+
+// 1. AIS Brand Palette Overrides
+$system-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
+
+// Brand Colors
+$primary-color:       #002855; // Deep Navy (Headers, Buttons)
+$success-color:       #C84E00; // Copper (Call to Actions)
+$text-color:          #111111; // High contrast text
+$link-color:          #002855; // Links match primary
+$background-color:    #ffffff;
+$code-background-color: #f2f2f2;
+
+// 2. Import the Theme
+@import "minimal-mistakes/skins/default"; // We modify the 'default' skin
+@import "minimal-mistakes";
+
+// 3. Custom Adjustments
+.site-title {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+// Make the "Contact" button on the Services page pop with the Copper color
+.btn--primary {
+    background-color: $success-color !important;
+}

@@ -1,0 +1,14 @@
+{
+  "scss.validate": false,
+  "css.validate": false,
+  "files.associations": {
+    "*.scss": "jekyll"
+  },
+  "cSpell.words": [
+    "Segoe",
+    "Roboto",
+    "BlinkMacSystemFont",
+    "formspree",
+    "Infraservices"
+  ]
+}
