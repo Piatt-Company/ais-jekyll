@@ -31,7 +31,7 @@ feature_row:
 
 <div class="video-hero">
   <video autoplay loop muted playsinline class="hero-bg-video">
-    <source src="/assets/images/ais-hero-video.mp4" type="video/mp4">
+    <source src="{{ '/assets/images/ais-hero-video.mp4' | relative_url }}" type="video/mp4">
   </video>
   <div class="hero-overlay"></div>
 
@@ -56,7 +56,7 @@ feature_row:
   <h2 class="section-header">Integrated Infrastructure Operations</h2>
 
   <div class="hero-graphic">
-    <img src="/assets/images/power-ai-infrastructure.png" alt="Power versus AI infrastructure diagram">
+    <img src="{{ '/assets/images/power-ai-infrastructure.png' | relative_url }}" alt="Power versus AI infrastructure diagram">
   </div>
 </div>
 
