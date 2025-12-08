@@ -2,26 +2,11 @@
 layout: single
 title: "Contact Us"
 permalink: /contact/
-author_profile: true
-sidebar:
-  nav: "main"
+# sidebar:
+#  nav: "main"
 ---
 
 We engage with hyperscalers, colocation providers, and enterprise AI labs. 
-
-### Headquarters
-**AI Infrastructure Services** San Antonio, Texas  
-USA
-
----
-
-### Business Inquiries
-
-For RFP invitations or site assessment requests, please contact us directly.
-
-**Email:** [bret@ai-infraservices.com](mailto:bret@ai-infraservices.com)
-
----
 
 ### Secure Inquiry Form
 

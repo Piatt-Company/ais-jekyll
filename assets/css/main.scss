@@ -26,3 +26,187 @@ $code-background-color: #f2f2f2;
 .btn--primary {
     background-color: $success-color !important;
 }
+
+/* --- Header / Masthead Overrides --- */
+.masthead {
+  /* 1. Visuals: Light Gray & No Border */
+  background-color: #f8f9fa !important; /* Very light, professional gray */
+  border-bottom: none !important;       /* Removes the hard line */
+  
+  /* 2. Function: Sticky Header */
+  position: -webkit-sticky; /* For Safari compatibility */
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensures it floats ABOVE everything else (diagrams, text) */
+  
+  /* 3. Spacing Polish */
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Optional: Very subtle shadow for depth when scrolling */
+}
+
+/* Ensure the inner container fills the width properly */
+.masthead__inner-wrap {
+  background-color: transparent !important; /* Let parent gray shine through */
+  border-bottom: none !important;
+}
+
+/* --- Navigation Bar Color Fix --- */
+.greedy-nav {
+  /* Remove the white background so the Masthead's gray shows through */
+  background-color: transparent !important;
+}
+
+/* Ensure mobile menu / links don't bring back the white boxes */
+.greedy-nav a {
+  background-color: transparent !important;
+}
+
+/* Optional: If you want the search button to blend in too */
+.search__toggle {
+  background-color: transparent !important;
+}
+
+/* --- Modern Hero Section (Updated) --- */
+.hero-container {
+  padding: 4rem 0 2rem 0;
+  border-bottom: none; /* Removed the divider line */
+}
+
+.hero-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+
+  @include breakpoint(large) {
+    grid-template-columns: 1.5fr 1fr;
+    align-items: start;
+  }
+}
+
+.hero-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 800;
+  font-size: 2.5rem;
+  line-height: 1.1;
+  color: $text-color;
+  margin: 0;
+  letter-spacing: -0.03em;
+
+  @include breakpoint(large) {
+    font-size: 4rem;
+  }
+}
+
+.hero-description {
+  font-size: 1.25rem;
+  line-height: 1.6;
+  color: #555;
+  margin-top: 1rem;
+
+  @include breakpoint(large) {
+    margin-top: 0.5rem;
+    padding-left: 2rem;
+  }
+}
+
+/* Minimalist Graphic Area - Flat & Clean */
+.hero-graphic {
+  margin-top: 3rem;
+  text-align: center;
+  background: transparent;
+  padding: 0;
+  border-radius: 0;
+  overflow: visible;
+  box-shadow: none; /* Removed shadow for flat look */
+}
+
+.hero-graphic img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  opacity: 1;
+}
+
+/* New Section Headers */
+.page__content .section-header {
+  border-bottom: none !important;
+  padding-bottom: 0;
+  
+  /* 2. Brand Styles */
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 1.75rem; 
+  color: $primary-color; 
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* --- Footer Overrides --- */
+.page__footer {
+  background-color: #ffffff !important;
+  color: $text-color;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /* border-top: 1px solid #eaeaea; /* thin line border */
+  border-top: none; /* Clean flat design */
+  box-shadow: none !important;
+  margin-top: 0 !important;
+}
+
+/* Flex container to handle Left/Right split */
+.footer-flex-container {
+  display: flex;
+  justify-content: space-between; /* Pushes content to edges */
+  align-items: center;
+  width: 100%;
+  max-width: 1280px; /* Aligns with main site content width */
+  margin: 0 auto;   /* Centers the container itself */
+  padding: 0 1rem;  /* Prevents text touching screen edges */
+  
+  /* On mobile, stack them vertically */
+  @media (max-width: 600px) {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+.page__footer-copyright {
+  text-align: left;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #666;
+  margin: 0;
+  padding: 0;
+  font-size: 0.7rem; /* Explicit size */
+}
+
+.footer-link {
+  text-align: right;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  color: #666 !important;
+  font-size: 0.7rem; /* Matches copyright size exactly */
+  text-decoration: underline !important; /* Always underline */
+  
+  &:hover {
+    color: $primary-color;
+  }
+}
+
+/* --- Feature Row "Flat" Overrides --- */
+.feature__wrapper,
+.feature__item,
+.archive__item {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Ensure the title inside the feature doesn't inherit a border either */
+.feature__item .archive__item-title {
+  border-bottom: none !important;
+}
