@@ -30,7 +30,7 @@ feature_row:
 ---
 
 <div class="video-hero">
-  <video autoplay loop muted playsinline class="hero-bg-video">
+  <video autoplay loop muted playsinline class="hero-bg-video" poster="{{ '/assets/images/hero-poster.jpg' | relative_url }}">
     <source src="{{ '/assets/images/ais-hero-video.mp4' | relative_url }}" type="video/mp4">
   </video>
   <div class="hero-overlay"></div>
