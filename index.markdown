@@ -4,33 +4,37 @@ permalink: /
 hidden: true
 title: "AI Infrastructure Services"
 header:
-  # We disable the default overlay header to use our custom clean layout
   overlay_image: false
 feature_row:
   - image_path: /assets/images/chain-of-custody_800x800.png 
     alt: "Secure Logistics"
     title: "Secure Logistics"
     excerpt: "Chain-of-custody protocols for AI hardware assets in and out of the rack."
-  #  url: "/services/"
-  #  btn_label: "View Capabilities"
-  #  btn_class: "btn--primary"
+    url: "/services/"
+    btn_label: "View Capabilities"
+    btn_class: "btn--primary"
   - image_path: /assets/images/coolant-loop_800x800.png 
     alt: "Advanced Cooling"
     title: "Liquid Cooling Ops"
     excerpt: "Specialized maintenance for DLC, CDUs, and rear-door heat exchangers."
-  #  url: "/services/"
-  #  btn_label: "Learn More"
-  #  btn_class: "btn--primary"
+    url: "/services/"
+    btn_label: "Learn More"
+    btn_class: "btn--primary"
   - image_path: /assets/images/om-team_800x800.png
     alt: "Regional Scale"
     title: "Texas & New Mexico"
     excerpt: "Purpose built teams capable of covering the major Southwest compute hubs."
-  #  url: "/about/"
-  #  btn_label: "Our Footprint"
-  #  btn_class: "btn--primary"
+    url: "/about/"
+    btn_label: "Our Footprint"
+    btn_class: "btn--primary"
 ---
 
-<div class="hero-container">
+<div class="video-hero">
+  <video autoplay loop muted playsinline class="hero-bg-video">
+    <source src="/assets/images/ais-hero-video.mp4" type="video/mp4">
+  </video>
+  <div class="hero-overlay"></div>
+
   <div class="hero-grid">
     <h1 class="hero-title">
       Powering the Future<br>
@@ -47,7 +51,8 @@ feature_row:
       </p>
     </div>
   </div>
-
+</div>
+<div class="content-container">
   <h2 class="section-header">Integrated Infrastructure Operations</h2>
 
   <div class="hero-graphic">

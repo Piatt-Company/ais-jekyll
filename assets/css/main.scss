@@ -1,10 +1,13 @@
 ---
 ---
 
-// 1. AIS Brand Palette Overrides
-$system-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
+/* ==========================================================================
+   1. BRAND VARIABLES & CONFIGURATION
+   ========================================================================== */
+// Font Stack (Inter + System Fallbacks)
+$system-font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !default;
 
-// Brand Colors
+// Brand Palette
 $primary-color:       #002855; // Deep Navy (Headers, Buttons)
 $success-color:       #C84E00; // Copper (Call to Actions)
 $text-color:          #111111; // High contrast text
@@ -12,68 +15,95 @@ $link-color:          #002855; // Links match primary
 $background-color:    #ffffff;
 $code-background-color: #f2f2f2;
 
-// 2. Import the Theme
-@import "minimal-mistakes/skins/default"; // We modify the 'default' skin
+/* ==========================================================================
+   2. THEME IMPORTS
+   ========================================================================== */
+@import "minimal-mistakes/skins/default"; // Modifying the 'default' skin
 @import "minimal-mistakes";
 
-// 3. Custom Adjustments
+/* ==========================================================================
+   3. GLOBAL UI OVERRIDES
+   ========================================================================== */
 .site-title {
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 
-// Make the "Contact" button on the Services page pop with the Copper color
+// Button Overrides - Copper "Pop"
 .btn--primary {
-    background-color: $success-color !important;
+  background-color: $success-color !important;
 }
 
-/* --- Header / Masthead Overrides --- */
+/* ==========================================================================
+   4. MASTHEAD (HEADER) & NAVIGATION
+   ========================================================================== */
 .masthead {
-  /* 1. Visuals: Light Gray & No Border */
-  background-color: #f8f9fa !important; /* Very light, professional gray */
-  border-bottom: none !important;       /* Removes the hard line */
+  /* Visuals: Light Gray & Flat */
+  background-color: #f8f9fa !important;
+  border-bottom: none !important;
   
-  /* 2. Function: Sticky Header */
-  position: -webkit-sticky; /* For Safari compatibility */
+  /* Functionality: Sticky Header */
+  position: -webkit-sticky;
   position: sticky;
   top: 0;
-  z-index: 1000; /* Ensures it floats ABOVE everything else (diagrams, text) */
+  z-index: 1000; /* Floats above video/content */
   
-  /* 3. Spacing Polish */
+  /* Spacing & Depth */
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.05); /* Optional: Very subtle shadow for depth when scrolling */
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
 }
 
-/* Ensure the inner container fills the width properly */
 .masthead__inner-wrap {
-  background-color: transparent !important; /* Let parent gray shine through */
+  background-color: transparent !important;
   border-bottom: none !important;
 }
 
-/* --- Navigation Bar Color Fix --- */
+/* Navigation Transparency Fixes */
 .greedy-nav {
-  /* Remove the white background so the Masthead's gray shows through */
   background-color: transparent !important;
 }
 
-/* Ensure mobile menu / links don't bring back the white boxes */
 .greedy-nav a {
   background-color: transparent !important;
 }
 
-/* Optional: If you want the search button to blend in too */
 .search__toggle {
   background-color: transparent !important;
 }
 
-/* --- Modern Hero Section (Updated) --- */
-.hero-container {
-  padding: 4rem 0 2rem 0;
-  border-bottom: none; /* Removed the divider line */
+/* ==========================================================================
+   5. HERO SYSTEM (VIDEO & LAYOUT)
+   ========================================================================== */
+
+/* --- Full Width Video Breakout --- */
+.video-hero {
+  position: relative;
+  overflow: hidden;
+  
+  /* THE BREAKOUT FIX: Force full viewport width */
+  width: 100vw; 
+  left: 50%; 
+  right: 50%; 
+  margin-left: -50vw; 
+  margin-right: -50vw;
+  
+  /* Vertical Spacing */
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  margin-bottom: 4rem; /* Gap before the diagram starts */
 }
 
-.hero-grid {
+/* Constraint Container: Keeps text centered inside the full-width video */
+.video-hero .hero-grid {
+  max-width: 1280px; /* Match standard site width */
+  margin: 0 auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  z-index: 10;
+  position: relative;
+  
+  /* Grid Layout for Text */
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
@@ -84,12 +114,39 @@ $code-background-color: #f2f2f2;
   }
 }
 
-.hero-title {
+/* Video Background Layer */
+.hero-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* Dark Overlay */
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* 50% Black tint */
+  z-index: 1;
+}
+
+/* Typography Overrides for Video Context (White Text) */
+.video-hero .hero-title {
+  color: #ffffff !important;
+  text-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 10;
+  
   font-family: 'Inter', sans-serif;
   font-weight: 800;
   font-size: 2.5rem;
   line-height: 1.1;
-  color: $text-color;
   margin: 0;
   letter-spacing: -0.03em;
 
@@ -98,10 +155,13 @@ $code-background-color: #f2f2f2;
   }
 }
 
-.hero-description {
+.video-hero .hero-description {
+  color: rgba(255, 255, 255, 0.95) !important;
+  position: relative;
+  z-index: 10;
+  
   font-size: 1.25rem;
   line-height: 1.6;
-  color: #555;
   margin-top: 1rem;
 
   @include breakpoint(large) {
@@ -110,7 +170,17 @@ $code-background-color: #f2f2f2;
   }
 }
 
-/* Minimalist Graphic Area - Flat & Clean */
+.video-hero .hero-description p {
+  color: inherit !important;
+}
+
+/* --- Static Hero / Diagram Container --- */
+.hero-container {
+  padding: 4rem 0 2rem 0;
+  border-bottom: none;
+}
+
+/* Diagram/Graphic Styles */
 .hero-graphic {
   margin-top: 3rem;
   text-align: center;
@@ -118,7 +188,7 @@ $code-background-color: #f2f2f2;
   padding: 0;
   border-radius: 0;
   overflow: visible;
-  box-shadow: none; /* Removed shadow for flat look */
+  box-shadow: none;
 }
 
 .hero-graphic img {
@@ -129,12 +199,15 @@ $code-background-color: #f2f2f2;
   opacity: 1;
 }
 
-/* New Section Headers */
+/* ==========================================================================
+   6. SECTION HEADERS
+   ========================================================================== */
 .page__content .section-header {
+  /* Structural Resets */
   border-bottom: none !important;
   padding-bottom: 0;
   
-  /* 2. Brand Styles */
+  /* Brand Typography */
   text-align: center;
   font-family: 'Inter', sans-serif;
   font-weight: 700;
@@ -146,29 +219,43 @@ $code-background-color: #f2f2f2;
   letter-spacing: 1px;
 }
 
-/* --- Footer Overrides --- */
+/* ==========================================================================
+   7. FEATURE ROW OVERRIDES (FLAT DESIGN)
+   ========================================================================== */
+.feature__wrapper,
+.feature__item,
+.archive__item {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.feature__item .archive__item-title {
+  border-bottom: none !important;
+}
+
+/* ==========================================================================
+   8. FOOTER
+   ========================================================================== */
 .page__footer {
   background-color: #ffffff !important;
   color: $text-color;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  /* border-top: 1px solid #eaeaea; /* thin line border */
-  border-top: none; /* Clean flat design */
+  border-top: none;
   box-shadow: none !important;
   margin-top: 0 !important;
 }
 
-/* Flex container to handle Left/Right split */
+/* Footer Flex Layout (Split Left/Right) */
 .footer-flex-container {
   display: flex;
-  justify-content: space-between; /* Pushes content to edges */
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1280px; /* Aligns with main site content width */
-  margin: 0 auto;   /* Centers the container itself */
-  padding: 0 1rem;  /* Prevents text touching screen edges */
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 1rem;
   
-  /* On mobile, stack them vertically */
   @media (max-width: 600px) {
     flex-direction: column;
     gap: 1rem;
@@ -182,31 +269,20 @@ $code-background-color: #f2f2f2;
   color: #666;
   margin: 0;
   padding: 0;
-  font-size: 0.7rem; /* Explicit size */
+  font-size: 0.7rem;
 }
 
 .footer-link {
   text-align: right;
   font-family: 'Inter', sans-serif;
   font-weight: 500;
+  font-size: 0.7rem; /* Matches copyright size */
+  
+  /* Force Overrides for Link Styles */
   color: #666 !important;
-  font-size: 0.7rem; /* Matches copyright size exactly */
-  text-decoration: underline !important; /* Always underline */
+  text-decoration: underline !important;
   
   &:hover {
-    color: $primary-color;
+    color: $primary-color !important;
   }
-}
-
-/* --- Feature Row "Flat" Overrides --- */
-.feature__wrapper,
-.feature__item,
-.archive__item {
-  border: none !important;
-  box-shadow: none !important;
-}
-
-/* Ensure the title inside the feature doesn't inherit a border either */
-.feature__item .archive__item-title {
-  border-bottom: none !important;
 }
