@@ -202,9 +202,14 @@ $code-background-color: #f2f2f2;
 /* ==========================================================================
    6. SECTION HEADERS
    ========================================================================== */
+.page__content .archive__item-title {
+  margin-top: 0;
+}
 .page__content .section-header {
   /* Structural Resets */
   border-bottom: none !important;
+  margin-top: 2rem !important;
+  margin-bottom: 1rem !important;
   padding-bottom: 0;
   
   /* Brand Typography */
