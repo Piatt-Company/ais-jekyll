@@ -5,6 +5,7 @@
 
 # --- Site Settings ---
 title: AI Infrastructure Services
+logo: "/assets/images/ais-logo-mark_600x600.png" # Appears in the top navigation bar
 description: >-
   Data center operations and maintenance activities must be done differently
   for the AI era. AIS is purpose built from the ground up to support the complex
@@ -16,7 +17,7 @@ baseurl: "" # Keep empty unless hosting in a subdirectory
 # This populates the "About" sidebar on standard pages
 author:
   name: "AI Infrastructure Services"
-  avatar: # "/assets/images/logo.png" (Uncomment once you have a logo file)
+  avatar: "/assets/images/ais-logo-mark_600x600.png" # Points to the Mark-only version
   bio: "Specialist expertise and SOPs for the AI era."
   location: "San Antonio, TX"
   email: "bret@ai-infraservices.com"
@@ -79,11 +80,11 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-  # --- Build Settings ---
+# --- Build Settings ---
 sass:
   style: compressed
   quiet_deps: true # Silences warnings from the theme gem itself
   # Explicitly allows @import in our local main.scss until
   # we migrate to @use when minimal-mistakes supports it.
   silence_deprecations:
-    - import 
+    - import
