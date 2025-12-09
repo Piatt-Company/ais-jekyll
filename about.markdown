@@ -26,6 +26,10 @@ Previously, he served as **Chief Executive Officer of CyberFortress**, a global 
 Bret holds a background in computer science and mathematics from California State University, Chico, and an executive MBA from Quantic School of Business and Technology. Based in San Antonio since 2004, he currently serves on the boards of BioBridge Global, Geekdom, and the Texas Lyceum where he will service as President in 2027.
 
 ### Jason Luce, Co-Founder
-Jason brings a unique combination of legal, financial, and operational expertise to the critical infrastructure space.
+Jason Luce is a seasoned tech operator and entrepreneur. He began his career as an attorney at **Cravath, Swaine & Moore LLP**, before becoming an infrastructure investment banker at **Morgan Stanley** in New York.
 
-His career began in high-stakes environments at **Cravath, Swaine & Moore** and **Morgan Stanley**, establishing a foundation in rigor and strategy. He transitioned into the technology sector with leadership roles at **Rackspace** and **ScaleFT** (acquired by Okta), before returning to finance at **JMP Securities**. Jason earned a BA in history from the University of Texas at Austin and a JD from Georgetown Law.
+In 2008, Jason pivoted from advising companies to helping run them, joining **Rackspace** during its high-growth, pre-IPO phase. He went on to become a three-time CEO of venture-backed startups, most notably co-founding **ScaleFT**, a zero-trust cybersecurity company that was acquired by Okta in 2018.
+
+Most recently, Jason served as Managing Director and Group Head of Cybersecurity Investment Banking at **Citizens JMP Securities** in San Francisco. His experience as both operator, founder, attorney and banker gives him a unique perspective on raising capital and navigating strategic outcomes. 
+
+Jason earned his undergraduate degree from the University of Texas at Austin and his law degree from Georgetown University Law Center.
