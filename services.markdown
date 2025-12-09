@@ -1,41 +1,34 @@
 ---
 layout: single
-title: "Our Services"
+title: "Services"
 permalink: /services/
-toc: true
-toc_label: "Capabilities"
-toc_icon: "cog"
+toc: false
 ---
 
-AIS provides specialized operational support for high-density compute environments. We bridge the gap between facility management and IT operations.
+AIS operates the critical power, cooling, and hardware logistics that keep hyperscale AI data centers running in Texas and New Mexico. We take ownership from the utility and on-site generation demarcation point through white-space plant, rack power distribution, and liquid-cooled infrastructure, so your teams can stay focused on GPUs and models instead of mechanical and electrical risk.
 
-## In-Scope Capabilities
+Our services are organized into three integrated capabilities that can be delivered together for a 100MW+ campus or tailored to smaller, high‑value AI sites.
 
-We focus on the physical layer of AI infrastructure.
+## Critical Power Operations
 
-### 1. AI Hardware Logistics
-High-value GPU assets require strict chain-of-custody and specialized handling.
-* **Secure Receiving:** Validated intake processes for H100/Blackwell class server racks.
-* **Racking & Stacking:** Precision installation using server lifts for high-weight chassis.
-* **Asset Tagging:** RFID and barcode inventory management integrated with your CMDB.
+AIS runs the full power path inside the facility—from the automatic transfer switch and on-site generation interface through switchgear, UPS systems, distribution panels, and busway into rack PDUs. Our teams handle routine operations, preventive maintenance, and change work such as tap‑offs, load balancing, and high‑density cabling so your AI capacity can grow without compromising safety or uptime.
 
-### 2. Advanced Cooling Operations
-AI workloads demand liquid cooling expertise that standard smart-hands lack.
-* **CDU Maintenance:** Regular filter changes and pressure monitoring for Coolant Distribution Units.
-* **Leak Detection Response:** 24/7 immediate physical response to leak alarms.
-* **Loop Commissioning:** Flushing and filling procedures for secondary loops.
+Every site is staffed with trades‑focused professionals who are trained on high‑energy environments and coordinated with your internal standards, incident processes, and vendor ecosystem. For 100MW‑class campuses this typically means a 24/7 on‑site presence; for smaller deployments we design response SLAs around your business criticality.
 
-### 3. High-Density Power
-* **Busway Tap-Offs:** Installation of high-amperage monitoring taps.
-* **Load Balancing:** Phase balancing to ensure rack power efficiency.
-* **Cable Management:** Airflow-optimized cabling for rear-door heat exchangers (RDHx).
+## Liquid Cooling Operations
+
+AIS operates the liquid cooling infrastructure that enables modern AI rack densities, including the pumps, manifolds, and control systems that sit between your facility plant and liquid‑cooled racks. Our teams commission, monitor, and maintain secondary loops, CDUs, and other mainstream architectures such as direct‑to‑chip and rear‑door solutions, working within your vendor ecosystem and reliability targets.
+
+When sensors flag anomalies—temperature excursions, pressure drift, leak alerts—we are the on‑site first responders who investigate, stabilize, and coordinate with your internal and OEM teams. The goal is simple: protect hardware, preserve uptime, and return the environment to a known‑good state as quickly and safely as possible.
+
+## AI Hardware Logistics & Chain‑of‑Custody
+
+AIS manages the physical lifecycle of high‑value AI hardware inside the data center: intake, secure storage, movement to and from racks, and removal of failed components. Each move is tied to an operations ticket, linked with your CMDB, and coordinated with site security so there is a clear, auditable chain‑of‑custody from loading dock to cabinet and back again.
+
+Racking, stacking, and in‑cabinet hardware swaps are performed by background‑checked trades professionals who are comfortable working around high‑voltage, liquid‑cooled environments. This reduces risk around multi‑million‑dollar racks, shortens the time from delivery to production, and gives Campus Directors and VPs of Data Center Operations confidence that every asset is where it should be.
 
 ---
 
-## Out-Of-Scope
-To maintain focus and quality, we do *not* provide:
-* **Application Support:** We do not touch the OS, drivers, or AI models.
-* **General IT Helpdesk:** No end-user laptop or printer support.
-* **Facility MEP:** We operate *inside* the rack; we do not repair the building chillers or generators.
+We work with each operator to align scope, staffing model, and escalation paths to your specific campus design and internal standards. To discuss how these capabilities apply to your environment, reach out for a site assessment.
 
-[Contact us for a site assessment](/contact/){: .btn .btn--primary}
+[Contact us](/contact/){: .btn .btn--primary}

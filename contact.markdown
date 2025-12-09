@@ -6,9 +6,11 @@ permalink: /contact/
 #  nav: "main"
 ---
 
-We engage with hyperscalers, colocation providers, and enterprise AI labs. 
+AIS values everyone's time in the rapidly evolving AI market. Replies will be sent to relevant inquiries. 
 
-### Secure Inquiry Form
+### Secure Inquiry 
+
+We engage with hyperscalers, colocation providers, enterprise AI labs, and investors in the AI facilities ecosystem. 
 
 <form id="contact-form">
   <div class="form-group">

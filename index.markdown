@@ -6,45 +6,38 @@ title: "AI Infrastructure Services"
 header:
   overlay_image: false
 feature_row:
-  - image_path: /assets/images/chain-of-custody_800x600.png 
-    alt: "Secure Logistics"
-    title: "Secure Logistics"
-    excerpt: "Chain-of-custody protocols for AI hardware assets in and out of the rack."
-  #  url: "/services/"
-  #  btn_label: "View Capabilities"
-  #  btn_class: "btn--primary"
-  - image_path: /assets/images/coolant-loop_800x600.png 
-    alt: "Advanced Cooling"
+  - image_path: /assets/images/chain-of-custody_800x600.png
+    alt: "GPU chain-of-custody"
+    title: "GPU Chain-of-Custody"
+    excerpt: "From dock to rack, every GPU move is ticketed, tagged, and on camera."
+  - image_path: /assets/images/coolant-loop_800x600.png
+    alt: "Liquid cooling operations"
     title: "Liquid Cooling Ops"
-    excerpt: "Specialized maintenance for DLC, CDUs, and rear-door heat exchangers."
-  #  url: "/services/"
-  #  btn_label: "Learn More"
-  #  btn_class: "btn--primary"
+    excerpt: "Direct-to-chip, CDU, and secondary loops run safely at hyperscale densities."
   - image_path: /assets/images/om-team_800x600.png
-    alt: "Regional Scale"
+    alt: "Texas and New Mexico AIS team"
     title: "Texas & New Mexico"
-    excerpt: "Purpose built teams capable of covering the major Southwest compute hubs."
-  #  url: "/about/"
-  #  btn_label: "Our Footprint"
-  #  btn_class: "btn--primary"
+    excerpt: "Dedicated AIS crews for the major AI campus clusters across TX and NM."
 ---
 
 <div class="video-hero">
-  <video autoplay loop muted playsinline class="hero-bg-video" poster="{{ '/assets/images/hero-poster.jpg' | relative_url }}">
+  <video autoplay loop muted playsinline class="hero-bg-video" poster="{{ '/assets/images/ais-hero-poster.jpg' | relative_url }}">
     <source src="{{ '/assets/images/ais-hero-video.mp4' | relative_url }}" type="video/mp4">
   </video>
   <div class="hero-overlay"></div>
 
   <div class="hero-grid">
     <h1 class="hero-title">
-      Powering the Future<br>
-      of Intelligence.
+      Data center operations<br>
+      for the AI era.
     </h1>
 
     <div class="hero-description">
       <p>
-        We build and operate growth infrastructure, bridging the gap between facility management and IT operations. 
-        AIS ensures high-performance platforms scale with speed and certainty.
+        AIS runs the power, cooling, and critical infrastructure for hyperscale AI data centers in Texas and New Mexico, from the utility handoff through rack-level liquid cooling loops so your teams can stay focused on GPUs and models. 
+      </p>
+      <p>
+        Built by cloud and critical-infrastructure veterans, AIS deploys dedicated 24/7 onsite crews for 100MW+ campuses and SLA-based coverage for smaller AI sites across the region.
       </p>
       <p>
         <a href="/contact/" class="btn btn--primary btn--large">Contact Us</a>
@@ -52,11 +45,31 @@ feature_row:
     </div>
   </div>
 </div>
+
 <div class="content-container">
-  <h2 class="section-header">Integrated Infrastructure Operations</h2>
+  <h2 class="section-header">From Grid to GPU</h2>
 
   <div class="hero-graphic">
-    <img src="{{ '/assets/images/power-ai-infrastructure.png' | relative_url }}" alt="Power versus AI infrastructure diagram">
+    <img src="{{ '/assets/images/power-ai-infrastructure.png' | relative_url }}" alt="Demarcation from power infrastructure at the ATS to hyperscale AI data center infrastructure.">
+  </div>
+  <h3>Where AIS Takes Ownership</h3>
+  <p>This diagram shows the handoff point where AIS assumes responsibility for operations—from the automatic transfer switch at the utility or behind-the-meter plant through the power and cooling systems that feed your AI racks.</p>
+</div>
+
+<h2 class="section-header">Who We Serve in Texas &amp; New Mexico</h2>
+
+<div class="segment-grid">
+  <div class="segment-card">
+    <h3>Hyperscale Operators</h3>
+    <p>Campus Directors and VPs of Data Center Operations who want a single O&amp;M partner from the utility demarcation point to rack power and cooling for 1,000+ rack AI campuses.</p>
+  </div>
+  <div class="segment-card">
+    <h3>Colocation Owners</h3>
+    <p>Regional and site leaders at large colo facilities who need consistent, high-density O&amp;M across multiple buildings and customers in TX and NM.</p>
+  </div>
+  <div class="segment-card">
+    <h3>Enterprise AI Labs</h3>
+    <p>Texas-based enterprises building AI infrastructure who require a trusted trades-focused partner to operate the plant while they keep in-cabinet operations in house.</p>
   </div>
 </div>
 

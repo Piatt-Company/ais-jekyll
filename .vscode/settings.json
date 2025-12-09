@@ -5,10 +5,11 @@
     "*.scss": "jekyll"
   },
   "cSpell.words": [
-    "Segoe",
-    "Roboto",
     "BlinkMacSystemFont",
     "formspree",
-    "Infraservices"
+    "Hyperscale",
+    "Infraservices",
+    "Roboto",
+    "Segoe"
   ]
 }
