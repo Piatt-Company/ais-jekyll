@@ -21,7 +21,7 @@ The AI era is different. It brings rack densities exceeding 100kW, complex liqui
 ### Bret Piatt, Co-Founder
 Bret leverages extensive experience as an advisor, executive, and investor in the cloud and cybersecurity sectors. 
 
-Previously, he served as **Chief Executive Officer of CyberFortress**, a global cybersecurity company. His career also includes leading the SaaS business unit at **Rackspace** and managing **AT&T's** Global Firewall Managed Service.
+Previously, he served as Chief Executive Officer of **CyberFortress**, a global cybersecurity company. His career also includes leading the SaaS business unit at **Rackspace** and managing **AT&T's** Global Firewall Managed Service.
 
 Bret holds a background in computer science and mathematics from California State University, Chico, and an executive MBA from Quantic School of Business and Technology. Based in San Antonio since 2004, he currently serves on the boards of BioBridge Global, Geekdom, and the Texas Lyceum where he will service as President in 2027.
 
