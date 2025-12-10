@@ -53,7 +53,7 @@ feature_row:
     <img src="{{ '/assets/images/power-ai-infrastructure.png' | relative_url }}" alt="Demarcation from power infrastructure at the ATS to hyperscale AI data center infrastructure.">
   </div>
   <h3>Where AIS Takes Ownership</h3>
-  <p>This diagram shows the handoff point where AIS assumes responsibility for operations—from the automatic transfer switch at the utility or behind-the-meter plant through the power and cooling systems that feed your AI racks.</p>
+  <p>This diagram shows the handoff point where AIS assumes responsibility for operations—from the automatic transfer switch through the power and cooling systems that feed your AI racks.</p>
 </div>
 
 <h2 class="section-header">Who We Serve in Texas &amp; New Mexico</h2>
