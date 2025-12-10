@@ -1,10 +1,10 @@
 ---
 layout: single
-title: "About AIS"
+# title: "About AIS"
 permalink: /about/
 ---
 
-## AIS in a Sentence
+![AIS Logo](/assets/images/ais-logo_2048x2048.png)
 
 AIS is building the premier quality dedicated operations and maintenance partner for the AI infrastructure era — running the power, cooling, and plant systems for hyperscale campuses in Texas and New Mexico.
 
@@ -30,6 +30,8 @@ We partner with hyperscale operators, colocation owners, and enterprise AI labs 
 
 ### Bret Piatt, Co‑Founder
 
+![AIS Logo](/assets/images/blp-bio.jpeg)
+
 Bret leverages extensive experience as an advisor, executive, and investor in the cloud and cybersecurity sectors.
 
 Previously, he served as Chief Executive Officer of CyberFortress, a global cybersecurity company. His career also includes leading the SaaS business unit at Rackspace and managing AT&T’s Global Firewall Managed Service.
@@ -37,6 +39,8 @@ Previously, he served as Chief Executive Officer of CyberFortress, a global cybe
 Bret holds a background in computer science and mathematics from California State University, Chico, and an executive MBA from Quantic School of Business and Technology. Based in San Antonio since 2004, he currently serves on the boards of BioBridge Global, Geekdom, and the Texas Lyceum where he will service as President in 2027.
 
 ### Jason Luce, Co‑Founder
+
+![AIS Logo](/assets/images/jpl-bio.jpeg)
 
 Jason Luce is a seasoned tech operator and entrepreneur. He began his career as an attorney at Cravath, Swaine & Moore LLP, before becoming an infrastructure investment banker at Morgan Stanley in New York.
 
