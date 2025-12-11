@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Privacy Policy"
+title: "AI Infrastructure Services | Privacy Policy"
 permalink: /privacy/
 ---
 

@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Services"
+title: "AI Infrastructure Services | Services"
 permalink: /services/
 toc: false
 ---

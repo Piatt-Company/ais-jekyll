@@ -2,7 +2,7 @@
 layout: splash
 permalink: /
 hidden: true
-title: "AI Infrastructure Services"
+title: "AI Infrastructure Services | AIS"
 header:
   overlay_image: false
 feature_row:
