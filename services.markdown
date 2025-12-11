@@ -11,7 +11,7 @@ Our services are organized into three integrated capabilities that can be delive
 
 ## Critical Power Operations
 
-![Critical power operation scope](/assets/images/critical-power-operation-scope_1800x1200.webp)
+![Critical power operation scope](/assets/images/critical-power-operation-scope_675x450.webp)
 
 AIS runs the full power path inside the facility—from the automatic transfer switch through switchgear, UPS systems, distribution panels, and busway into rack PDUs. Our teams handle routine operations, preventive maintenance, and change work such as tap‑offs, load balancing, and high‑density cabling so your AI capacity can grow without compromising safety or uptime.
 
@@ -19,7 +19,7 @@ Every site is staffed with trades‑focused professionals who are trained on hig
 
 ## Liquid Cooling Operations
 
-![Liquid cooling operations flow](/assets/images/liquid-cooling-ops_1800x1200.webp)
+![Liquid cooling operations flow](/assets/images/liquid-cooling-ops_675x450.webp)
 
 AIS operates the liquid cooling infrastructure that enables modern AI rack densities, including the pumps, manifolds, and control systems that sit between your facility plant and liquid‑cooled racks. Our teams commission, monitor, and maintain secondary loops, CDUs, and other mainstream architectures such as direct‑to‑chip and rear‑door solutions, working within your vendor ecosystem and reliability targets.
 
@@ -27,7 +27,7 @@ When sensors flag anomalies—temperature excursions, pressure drift, leak alert
 
 ## AI Hardware Logistics & Chain‑of‑Custody
 
-![Secure logistics flow](/assets/images/logistics-custody_1800x1200.webp)
+![Secure logistics flow](/assets/images/logistics-custody_675x450.webp)
 
 AIS manages the physical lifecycle of high‑value AI hardware inside the data center: intake, secure storage, movement to and from racks, and removal of failed components. Each move is tied to an operations ticket, linked with your CMDB, and coordinated with site security so there is a clear, auditable chain‑of‑custody from loading dock to cabinet and back again.
 

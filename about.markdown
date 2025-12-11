@@ -4,7 +4,7 @@ layout: single
 permalink: /about/
 ---
 
-![AIS Logo](/assets/images/ais-logo_2048x2048.webp)
+![AIS Logo](/assets/images/ais-logo_1024x1024.webp)
 
 AIS is building the premier quality dedicated operations and maintenance partner for the AI infrastructure era — running the power, cooling, and plant systems for hyperscale campuses in Texas and New Mexico.
 
@@ -12,7 +12,7 @@ AIS is building the premier quality dedicated operations and maintenance partner
 
 AI data centers do not behave like yesterday’s air‑cooled, general‑purpose facilities. Rack densities pushing past 100 kW, complex liquid cooling loops, and cabinets filled with millions of dollars of GPUs have made “smart hands” models and generic facility outsourcing unsafe and inefficient.
 
-AIS was created to close this gap. Our focus is the physical layer of AI infrastructure: power, cooling, and in‑facility hardware logistics from the utility and on‑site generation demarcation point through white‑space plant and rack‑level infrastructure. We exist so Campus Directors and VPs of Data Center Operations can rely on a single O&M team that understands both hyperscale AI and industrial trades.
+AIS was created to close this gap. Our focus is the physical layer of AI infrastructure: power, cooling, and in‑facility hardware logistics from the utility and on‑site generation demarcation point through white space and rack‑level infrastructure. We exist so Campus Directors and VPs of Data Center Operations can rely on a single O&M team that understands both hyperscale AI and industrial trades.
 
 ## How AIS Operates
 
@@ -30,7 +30,7 @@ We partner with hyperscale operators, colocation owners, and enterprise AI labs 
 
 ### Bret Piatt, Co‑Founder
 
-![AIS Logo](/assets/images/blp-bio.webp)
+![Bret Piatt bio photo](/assets/images/blp-bio_636x477.webp)
 
 Bret leverages extensive experience as an advisor, executive, and investor in the cloud and cybersecurity sectors.
 
@@ -40,7 +40,7 @@ Bret holds a background in computer science and mathematics from California Stat
 
 ### Jason Luce, Co‑Founder
 
-![AIS Logo](/assets/images/jpl-bio.webp)
+![Jason Luce bio photo](/assets/images/jpl-bio_636x477.webp)
 
 Jason Luce is a seasoned tech operator and entrepreneur. He began his career as an attorney at Cravath, Swaine & Moore LLP, before becoming an infrastructure investment banker at Morgan Stanley in New York.
 
