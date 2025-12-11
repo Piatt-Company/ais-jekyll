@@ -5,7 +5,7 @@
 
 # --- Site Settings ---
 title: AI Infrastructure Services
-logo: "/assets/images/ais-logo-mark_600x600.png" # Appears in the top navigation bar
+logo: "/assets/images/ais-logo-mark_600x600.webp" # Appears in the top navigation bar
 description: >-
   Data center operations and maintenance activities must be done differently
   for the AI era. AIS is purpose built from the ground up to support the complex
@@ -18,7 +18,7 @@ baseurl: "" # Keep empty unless hosting in a subdirectory
 # This populates the "About" sidebar on standard pages
 author:
   name: "AI Infrastructure Services"
-  avatar: "/assets/images/ais-logo-mark_600x600.png" # Points to the Mark-only version
+  avatar: "/assets/images/ais-logo-mark_600x600.webp" # Points to the Mark-only version
   bio: "Specialist expertise and SOPs for the AI era."
   location: "San Antonio, TX"
   email: "bret@ai-infraservices.com"
