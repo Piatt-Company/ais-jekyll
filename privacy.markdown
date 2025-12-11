@@ -31,5 +31,4 @@ We use standard cookies to improve website performance and user experience. You 
 
 ## 5. Contact Us
 
-If you have any questions about this Privacy Policy, please contact us at:  
-**Email:** [bret@ai-infraservices.com](mailto:bret@ai-infraservices.com)
+If you have any questions about this Privacy Policy, please contact us at: [bret@ai-infraservices.com](mailto:bret@ai-infraservices.com)

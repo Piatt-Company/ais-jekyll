@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "AI Infrastructure Services | Contact Us"
+title: "AI Infrastructure Services -- Contact Us"
 permalink: /contact/
 # sidebar:
 #  nav: "main"

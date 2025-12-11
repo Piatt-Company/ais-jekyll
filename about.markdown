@@ -1,6 +1,6 @@
 ---
 layout: single
-# title: "AI Infrastructure Services | About AIS"
+# title: "AI Infrastructure Services -- About AIS"
 permalink: /about/
 ---
 
