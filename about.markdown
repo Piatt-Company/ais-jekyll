@@ -4,7 +4,7 @@ layout: single
 permalink: /about/
 ---
 
-![AIS Logo](/assets/images/ais-logo_2048x2048.png)
+![AIS Logo](/assets/images/ais-logo_2048x2048.webp)
 
 AIS is building the premier quality dedicated operations and maintenance partner for the AI infrastructure era — running the power, cooling, and plant systems for hyperscale campuses in Texas and New Mexico.
 
@@ -30,7 +30,7 @@ We partner with hyperscale operators, colocation owners, and enterprise AI labs 
 
 ### Bret Piatt, Co‑Founder
 
-![AIS Logo](/assets/images/blp-bio.jpeg)
+![AIS Logo](/assets/images/blp-bio.webp)
 
 Bret leverages extensive experience as an advisor, executive, and investor in the cloud and cybersecurity sectors.
 
@@ -40,7 +40,7 @@ Bret holds a background in computer science and mathematics from California Stat
 
 ### Jason Luce, Co‑Founder
 
-![AIS Logo](/assets/images/jpl-bio.jpeg)
+![AIS Logo](/assets/images/jpl-bio.webp)
 
 Jason Luce is a seasoned tech operator and entrepreneur. He began his career as an attorney at Cravath, Swaine & Moore LLP, before becoming an infrastructure investment banker at Morgan Stanley in New York.
 

@@ -6,15 +6,15 @@ title: "AI Infrastructure Services"
 header:
   overlay_image: false
 feature_row:
-  - image_path: /assets/images/chain-of-custody_800x600.png
+  - image_path: /assets/images/chain-of-custody_800x600.webp
     alt: "GPU chain-of-custody"
     title: "GPU Chain-of-Custody"
     excerpt: "From dock to rack, every GPU move is ticketed, tagged, and on camera."
-  - image_path: /assets/images/coolant-loop_800x600.png
+  - image_path: /assets/images/coolant-loop_800x600.webp
     alt: "Liquid cooling operations"
     title: "Liquid Cooling Ops"
     excerpt: "Direct-to-chip, CDU, and secondary loops run safely at hyperscale densities."
-  - image_path: /assets/images/om-team_800x600.png
+  - image_path: /assets/images/om-team_800x600.webp
     alt: "Texas and New Mexico AIS team"
     title: "Texas & New Mexico"
     excerpt: "Dedicated AIS crews for the major AI campus clusters across TX and NM."
@@ -50,7 +50,7 @@ feature_row:
   <h2 class="section-header">From Grid to GPU</h2>
 
   <div class="hero-graphic">
-    <img src="{{ '/assets/images/power-ai-infrastructure.png' | relative_url }}" alt="Demarcation from power infrastructure at the ATS to hyperscale AI data center infrastructure.">
+    <img src="{{ '/assets/images/power-ai-infrastructure.webp' | relative_url }}" alt="Demarcation from power infrastructure at the ATS to hyperscale AI data center infrastructure.">
   </div>
   <h3>Where AIS Takes Ownership</h3>
   <p>This diagram shows the handoff point where AIS assumes responsibility for operations—from the automatic transfer switch through the power and cooling systems that feed your AI racks.</p>
